@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   firstservice:
   - apiVersion: v2
+    appVersion: 1.16.2
+    created: "2023-09-13T01:34:12.34126+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 1595b1a1a23b4efd41f084dda076135494784e97f18b3bccb29459955c3d3322
+    name: firstservice
+    type: application
+    urls:
+    - git@github.com:shail248/helm-versioning.git/firstservice-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-13T01:13:23.186072+05:30"
+    created: "2023-09-13T01:34:12.340648+05:30"
     description: A Helm chart for Kubernetes
     digest: 5f5cbb4db58b630da576708feef61acdb4cfc2d156383952932dfe571411d1c1
     name: firstservice
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-13T01:13:23.185449+05:30"
+    created: "2023-09-13T01:34:12.340108+05:30"
     description: A Helm chart for Kubernetes
     digest: fe10b1528fa63a0379d80325f6103ac6f895f98f51556d275fd3101cfda5516e
     name: firstservice
@@ -21,4 +31,4 @@ entries:
     urls:
     - git@github.com:shail248/helm-versioning.git/firstservice-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-13T01:13:23.184767+05:30"
+generated: "2023-09-13T01:34:12.339302+05:30"
